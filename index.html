@@ -97,14 +97,7 @@
 
 <p>It iterates through a list for formats, attempting to match against each date specification in turn, until either a match is found or the list is exhausted. The current set of formats is:</p>
 
-<p>1) Time::Format::YAML_DATE
-2) Time::Format::ISO_8601_DATE_TIME
-3) Time::Format::ISO_8601_DATE
-4) Time::Format::ISO_8601_TIME
-5) Time::Format::RFC_2822
-6) Time::Format::RFC_3339
-7) Time::Format::HTTP_DATE
-8) ParseDate::Format::UsMil</p>
+<ol><li>Time::Format::YAML_DATE</li><li>Time::Format::ISO_8601_DATE_TIME</li><li>Time::Format::ISO_8601_DATE</li><li>Time::Format::ISO_8601_TIME</li><li>Time::Format::RFC_2822</li><li>Time::Format::RFC_3339</li><li>Time::Format::HTTP_DATE</li><li>ParseDate::Format::UsMil</li></ol>
 
 <h2><a id="installation" class="anchor" href="#installation">
   <svg class="octicon-link" aria-hidden="true">
@@ -112,10 +105,9 @@
   </svg>
 </a>Installation</h2>
 
-<ol><li>Add the dependency to your <code>shard.yml</code>:</li></ol>
-
-<p><code></code>`yaml
-   dependencies:</p>
+<ol><li>Add the dependency to your <code>shard.yml</code>:
+   <code></code>`yaml
+   dependencies:</li></ol>
 
 <pre><code class="language-crystal"> parsedate:
    github: wyhaines/ParseDate.cr</code></pre>
