@@ -58,4 +58,4 @@ utilizing a brute force approach. Someday...
 - [Kirk Haines](https://github.com/wyhaines) - creator and maintainer
 
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/wyhaines/ParseDate.cr?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/wyhaines/serf-handler.cr?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/wyhaines/ParseDate.cr?style=for-the-badge)
