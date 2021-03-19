@@ -1,5 +1,9 @@
 # parsedate
 
+![SplayTreeMap CI](https://img.shields.io/github/workflow/status/wyhaines/ParseDate.cr/ParseDate%20CI?style=for-the-badge&logo=GitHub)
+[![GitHub release](https://img.shields.io/github/release/wyhaines/ParseDate.cr.svg?style=for-the-badge)](https://github.com/wyhaines/ParseDate.cr/releases)
+![GitHub commits since latest release (by SemVer)](https://img.shields.io/github/commits-since/wyhaines/ParseDate.cr/latest?style=for-the-badge)
+
 This utility tries to brute force match a time/date against a hierarchy of possible formats in order to be able to broadly accept, and parse a wide range of date specifications.
 
 It iterates through a list for formats, attempting to match against each date specification in turn, until either a match is found or the list is exhausted. The current set of formats is:
@@ -52,3 +56,7 @@ utilizing a brute force approach. Someday...
 ## Contributors
 
 - [Kirk Haines](https://github.com/wyhaines) - creator and maintainer
+
+![SplayTreeMap CI](https://img.shields.io/github/workflow/status/wyhaines/ParseDate.cr/Serf-Handler.cr%20CI?style=for-the-badge&logo=GitHub)
+[![GitHub release](https://img.shields.io/github/release/wyhaines/ParseDate.cr.svg?style=for-the-badge)](https://github.com/wyhaines/ParseDate.cr/releases)
+![GitHub commits since latest release (by SemVer)](https://img.shields.io/github/commits-since/wyhaines/ParseDate.cr/latest?style=for-the-badge)
