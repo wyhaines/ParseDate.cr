@@ -1,5 +1,5 @@
-name: parsedate
-version: 0.1.0
+name: parse_date
+version: 0.1.1
 
 authors:
   - Kirk Haines <wyhaines@gmail.com>
