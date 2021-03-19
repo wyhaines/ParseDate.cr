@@ -8,25 +8,23 @@ This utility tries to brute force match a time/date against a hierarchy of possi
 
 It iterates through a list for formats, attempting to match against each date specification in turn, until either a match is found or the list is exhausted. The current set of formats is:
   
-1) Time::Format::YAML_DATE
-2) Time::Format::ISO_8601_DATE_TIME
-3) Time::Format::ISO_8601_DATE
-4) Time::Format::ISO_8601_TIME
-5) Time::Format::RFC_2822
-6) Time::Format::RFC_3339
-7) Time::Format::HTTP_DATE
-8) ParseDate::Format::UsMil
+1. Time::Format::YAML_DATE
+2. Time::Format::ISO_8601_DATE_TIME
+3. Time::Format::ISO_8601_DATE
+4. Time::Format::ISO_8601_TIME
+5. Time::Format::RFC_2822
+6. Time::Format::RFC_3339
+7. Time::Format::HTTP_DATE
+8. ParseDate::Format::UsMil
 
 ## Installation
 
 1. Add the dependency to your `shard.yml`:
-
    ```yaml
    dependencies:
      parsedate:
        github: wyhaines/ParseDate.cr
    ```
-
 2. Run `shards install`
 
 ## Usage

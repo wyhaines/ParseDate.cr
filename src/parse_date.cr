@@ -9,14 +9,14 @@ require "./format/*"
 # each date specification in turn, until either a match is found or the
 # list is exhausted. The current set of formats is:
 #
-# 1) Time::Format::YAML_DATE
-# 2) Time::Format::ISO_8601_DATE_TIME
-# 3) Time::Format::ISO_8601_DATE
-# 4) Time::Format::ISO_8601_TIME
-# 5) Time::Format::RFC_2822
-# 6) Time::Format::RFC_3339
-# 7) Time::Format::HTTP_DATE
-# 8) ParseDate::Format::UsMil
+# 1. Time::Format::YAML_DATE
+# 2. Time::Format::ISO_8601_DATE_TIME
+# 3. Time::Format::ISO_8601_DATE
+# 4. Time::Format::ISO_8601_TIME
+# 5. Time::Format::RFC_2822
+# 6. Time::Format::RFC_3339
+# 7. Time::Format::HTTP_DATE
+# 8. ParseDate::Format::UsMil
 class ParseDate
   VERSION = "0.1.1"
 
