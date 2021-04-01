@@ -18,7 +18,7 @@ require "./format/*"
 # 7. Time::Format::HTTP_DATE
 # 8. ParseDate::Format::UsMil
 class ParseDate
-  VERSION = "0.1.1"
+  VERSION = "0.1.2"
 
   DEFAULT_FORMATS = [
     Time::Format::YAML_DATE,
